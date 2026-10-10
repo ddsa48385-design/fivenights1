@@ -65,9 +65,9 @@ footer .by{font-size:15px;color:#ddd;letter-spacing:.06em}
 </footer>
 </main>
 <script>
-/* ===== แก้แค่ 2 บรรทัดนี้ ===== */
-var DOWNLOAD_URL = "https://github.com/Nuea67/fivenights/releases/latest/download/FiveNightsAtThanaphon.exe";   // ลิงก์ดาวน์โหลดไฟล์ .zip ของเกม (เช่น GitHub Releases / Google Drive)
-var PLAY_URL     = "";   // (ไม่บังคับ) ลิงก์เล่นในเบราว์เซอร์ เช่น หน้า itch.io ถ้าไม่ใส่ ปุ่มจะซ่อน
+/* ===== แก้บรรทัดนี้แล้วเรียบร้อย ===== */
+var DOWNLOAD_URL = "https://github.com/ddsa4385-design/fivenights1/releases/latest/download/FiveNightsAtThanaphon.exe";   // ลิงก์ดาวน์โหลดไฟล์เกมจาก GitHub Releases
+var PLAY_URL     = "";   // (ไม่บังคับ) ลิงก์เล่นในเบราว์เซอร์
 /* ============================= */
 var d=document.getElementById('dl'),p=document.getElementById('play');
 if(DOWNLOAD_URL){d.href=DOWNLOAD_URL}else{d.addEventListener('click',function(e){e.preventDefault();alert('ยังไม่ได้ใส่ลิงก์ดาวน์โหลด (แก้ DOWNLOAD_URL ในไฟล์ index.html)')})}
