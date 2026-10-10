@@ -36,10 +36,10 @@ footer .by{font-size:15px;color:#ddd;letter-spacing:.06em}
 <p>คุณคือยามกะดึกในบ้านไม้กลางทุ่ง ห้องเดียวที่ปลอดภัยคือห้องที่คุณนั่งอยู่ ดูกล้องวงจรปิด ฟังเสียงฝีเท้า ปิดประตูหน้าต่าง ใส่หน้ากาก และอยู่ให้รอดจนถึงหกโมงเช้า มี 5 คืน และบางคืนอาจมีใครมาเคาะประตู</p>
 
 <div class="btns">
-  <a class="b main" id="dl" href="#">⬇ ดาวน์โหลดสำหรับ Windows</a>
-  <a class="b hide" id="play" href="#">▶ เล่นในเบราว์เซอร์</a>
+  <!-- ลิงก์ตรงที่ถูกต้องของคุณเหนือ -->
+  <a class="b main" href="https://github.com/ddsa48385-design/fivenights1/releases/download/v1.0.0/FiveNightsAtThanaphon.exe">⬇ ดาวน์โหลดสำหรับ Windows</a>
 </div>
-<div class="small" id="ver">ดาวน์โหลดเสร็จแล้วดับเบิลคลิกไฟล์ FiveNightsAtThanaphon.exe เล่นได้เลย ไม่ต้องแตกไฟล์ ไม่ต้องติดตั้ง ไม่ต้องต่อเน็ต</div>
+<div class="small">ดาวน์โหลดเสร็จแล้วดับเบิลคลิกไฟล์ FiveNightsAtThanaphon.exe เล่นได้เลย ไม่ต้องแตกไฟล์ ไม่ต้องติดตั้ง ไม่ต้องต่อเน็ต</div>
 
 <div class="warn">คำเตือน: เกมนี้มีแสงกะพริบ เสียงดัง และ jump scare จำนวนมาก แนะนำให้ใส่หูฟัง</div>
 
@@ -64,13 +64,4 @@ footer .by{font-size:15px;color:#ddd;letter-spacing:.06em}
 <div class="by">BY : NUEA</div>
 </footer>
 </main>
-<script>
-/* ===== ลิงก์ตรงถูกต้อง 100% ===== */
-var DOWNLOAD_URL = "https://github.com/ddsa4385-design/fivenights1/releases/download/v1.0.0/FiveNightsAtThanaphon.exe";
-var PLAY_URL     = "";   // (ไม่บังคับ) ลิงก์เล่นในเบราว์เซอร์
-/* ============================= */
-var d=document.getElementById('dl'),p=document.getElementById('play');
-if(DOWNLOAD_URL){d.href=DOWNLOAD_URL}else{d.addEventListener('click',function(e){e.preventDefault();alert('ยังไม่ได้ใส่ลิงก์ดาวน์โหลด')})}
-if(PLAY_URL){p.href=PLAY_URL;p.classList.remove('hide')}
-</script>
 </body></html>
