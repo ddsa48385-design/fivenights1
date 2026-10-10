@@ -65,12 +65,12 @@ footer .by{font-size:15px;color:#ddd;letter-spacing:.06em}
 </footer>
 </main>
 <script>
-/* ===== แก้บรรทัดนี้แล้วเรียบร้อย ===== */
-var DOWNLOAD_URL = "https://github.com/ddsa4385-design/fivenights1/releases/latest/download/FiveNightsAtThanaphon.exe";   // ลิงก์ดาวน์โหลดไฟล์เกมจาก GitHub Releases
+/* ===== ลิงก์ตรงถูกต้อง 100% ===== */
+var DOWNLOAD_URL = "https://github.com/ddsa4385-design/fivenights1/releases/download/v1.0.0/FiveNightsAtThanaphon.exe";
 var PLAY_URL     = "";   // (ไม่บังคับ) ลิงก์เล่นในเบราว์เซอร์
 /* ============================= */
 var d=document.getElementById('dl'),p=document.getElementById('play');
-if(DOWNLOAD_URL){d.href=DOWNLOAD_URL}else{d.addEventListener('click',function(e){e.preventDefault();alert('ยังไม่ได้ใส่ลิงก์ดาวน์โหลด (แก้ DOWNLOAD_URL ในไฟล์ index.html)')})}
+if(DOWNLOAD_URL){d.href=DOWNLOAD_URL}else{d.addEventListener('click',function(e){e.preventDefault();alert('ยังไม่ได้ใส่ลิงก์ดาวน์โหลด')})}
 if(PLAY_URL){p.href=PLAY_URL;p.classList.remove('hide')}
 </script>
 </body></html>
