@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Five Nights at ธนพล</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#d6d8d0;--dim:#7d8588;--red:#b3262a;--bg:#050607}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:'Sarabun',system-ui,sans-serif}
+body{min-height:100vh;background:radial-gradient(ellipse at 50% 0,#14181b 0,#050607 60%)}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.22) 0 1px,transparent 1px 3px)}
+main{max-width:760px;margin:0 auto;padding:8vh 22px 60px}
+.tag{font:13px 'Share Tech Mono',monospace;color:var(--dim);letter-spacing:.2em}
+h1{font-weight:300;font-size:clamp(2.6rem,9vw,5rem);line-height:1.1;margin:10px 0 18px;letter-spacing:.03em;animation:fl 6s infinite}
+@keyframes fl{0%,92%,100%{opacity:1;transform:none}93%{opacity:.4;transform:translateX(3px)}95%{opacity:1;transform:translateX(-3px)}97%{opacity:.6}}
+p{line-height:1.85;color:#aeb3ad}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0 8px}
+a.b{font:700 18px 'Sarabun',sans-serif;padding:15px 34px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;letter-spacing:.06em}
+a.b:hover,a.b:focus-visible{background:var(--ink);color:var(--bg);outline:none}
+a.b.main{border-color:var(--red);background:rgba(179,38,42,.18)}
+a.b.main:hover,a.b.main:focus-visible{background:var(--red);color:#fff}
+.small{font-size:13px;color:var(--dim);margin:6px 0 0}
+h2{font-weight:400;font-size:1.3rem;margin:44px 0 10px;color:#eee}
+.k{display:flex;gap:14px;align-items:center;margin:8px 0;color:#aeb3ad}
+.k b{flex:none;min-width:76px;text-align:center;border:1px solid #555;padding:4px 10px;color:#eee;font-weight:400;font-family:'Share Tech Mono',monospace}
+.warn{border-left:3px solid var(--red);padding:4px 16px;margin:34px 0;color:#c9b9b9}
+ol{padding-left:22px;line-height:1.9;color:#aeb3ad}
+footer{margin-top:60px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:#777}
+footer .by{font-size:15px;color:#ddd;letter-spacing:.06em}
+.hide{display:none}
+@media (prefers-reduced-motion:reduce){h1{animation:none}}
+</style></head>
+<body><main>
+<div class="tag">// เกมสยองขวัญเอาชีวิตรอดกะดึก</div>
+<h1>Five Nights<br>at ธนพล</h1>
+<p>คุณคือยามกะดึกในบ้านไม้กลางทุ่ง ห้องเดียวที่ปลอดภัยคือห้องที่คุณนั่งอยู่ ดูกล้องวงจรปิด ฟังเสียงฝีเท้า ปิดประตูหน้าต่าง ใส่หน้ากาก และอยู่ให้รอดจนถึงหกโมงเช้า มี 5 คืน และบางคืนอาจมีใครมาเคาะประตู</p>
+
+<div class="btns">
+  <a class="b main" id="dl" href="#">⬇ ดาวน์โหลดสำหรับ Windows</a>
+  <a class="b hide" id="play" href="#">▶ เล่นในเบราว์เซอร์</a>
+</div>
+<div class="small" id="ver">ดาวน์โหลดเสร็จแล้วดับเบิลคลิกไฟล์ FiveNightsAtThanaphon.exe เล่นได้เลย ไม่ต้องแตกไฟล์ ไม่ต้องติดตั้ง ไม่ต้องต่อเน็ต</div>
+
+<div class="warn">คำเตือน: เกมนี้มีแสงกะพริบ เสียงดัง และ jump scare จำนวนมาก แนะนำให้ใส่หูฟัง</div>
+
+<h2>วิธีเล่น</h2>
+<div class="k"><b>Space</b>สวมหรือถอดหน้ากาก (กัน TUNG TUNG)</div>
+<div class="k"><b>1</b>ปิดหรือเปิดหน้าต่าง</div>
+<div class="k"><b>2</b>ปิดหรือเปิดประตู</div>
+<div class="k"><b>C</b>เปิดหรือปิดกล้องวงจรปิด</div>
+<div class="k"><b>E</b>เปลี่ยนห้องกล้อง</div>
+<div class="k"><b>B / F</b>ถือ / โยนแบตตาเลี่ยน (ใช้กับผีผมยาว)</div>
+<div class="k"><b>F11</b>เต็มจอ (ในโปรแกรม)</div>
+
+<h2>ถ้า Windows ขึ้นหน้าจอสีน้ำเงินเตือน</h2>
+<ol>
+<li>กด <b>More info</b></li>
+<li>กด <b>Run anyway</b></li>
+</ol>
+<p class="small">เกิดขึ้นเพราะโปรแกรมไม่ได้ลงลายเซ็นของ Microsoft ไม่ใช่ไวรัส</p>
+
+<footer>
+<div>เกมอาจจะไม่ได้ดีมากขอโทษนะครับ TT<br>เกมแฟนเมด ไม่เกี่ยวข้องกับ Five Nights at Freddy's หรือ Scott Cawthon</div>
+<div class="by">BY : NUEA</div>
+</footer>
+</main>
+<script>
+/* ===== แก้แค่ 2 บรรทัดนี้ ===== */
+var DOWNLOAD_URL = "https://github.com/Nuea67/fivenights/releases/latest/download/FiveNightsAtThanaphon.exe";   // ลิงก์ดาวน์โหลดไฟล์ .zip ของเกม (เช่น GitHub Releases / Google Drive)
+var PLAY_URL     = "";   // (ไม่บังคับ) ลิงก์เล่นในเบราว์เซอร์ เช่น หน้า itch.io ถ้าไม่ใส่ ปุ่มจะซ่อน
+/* ============================= */
+var d=document.getElementById('dl'),p=document.getElementById('play');
+if(DOWNLOAD_URL){d.href=DOWNLOAD_URL}else{d.addEventListener('click',function(e){e.preventDefault();alert('ยังไม่ได้ใส่ลิงก์ดาวน์โหลด (แก้ DOWNLOAD_URL ในไฟล์ index.html)')})}
+if(PLAY_URL){p.href=PLAY_URL;p.classList.remove('hide')}
+</script>
+</body></html>
